@@ -1,6 +1,10 @@
 pipeline {
   agent any
-  
+
+  tools {
+    maven 'M3'
+  }
+
   stages {
     stage('Checkout') {
       steps {
@@ -10,7 +14,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh "echo build!"
+        sh 'mvn -B -DskipTests clean package'
       }
     }
 

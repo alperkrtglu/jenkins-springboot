@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679313259819</updated>
-      <workItem from="1679313261113" duration="5312000" />
+      <workItem from="1679313261113" duration="5616000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT-1">
       <created>1679318868672</created>
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679318868672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="COMMIT-2">
+      <created>1679325115315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679325115315</updated>
+    </task>
+    <task id="LOCAL-00003" summary="COMMIT-3">
+      <created>1679325149839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679325149839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +103,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="COMMIT-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="COMMIT-1" />
+    <MESSAGE value="COMMIT-2" />
+    <MESSAGE value="COMMIT-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMIT-3" />
   </component>
 </project>
