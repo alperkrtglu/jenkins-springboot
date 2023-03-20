@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jenkins/springboot/SpringbootApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679313259819</updated>
-      <workItem from="1679313261113" duration="6816000" />
+      <workItem from="1679313261113" duration="7438000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT-1">
       <created>1679318868672</created>
@@ -105,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679325369186</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="COMMIT-5">
+      <created>1679349163667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679349163667</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +121,7 @@
     <MESSAGE value="COMMIT-2" />
     <MESSAGE value="COMMIT-3" />
     <MESSAGE value="COMMIT-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="COMMIT-4" />
+    <MESSAGE value="COMMIT-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMIT-5" />
   </component>
 </project>
