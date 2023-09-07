@@ -31,11 +31,6 @@ pipeline {
       }
     }
 
-    stage('Cronjob') {
-      steps {
-        triggerProject()
-      }
-    }
 
   }
 }
