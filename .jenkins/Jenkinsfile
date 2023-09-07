@@ -10,6 +10,13 @@ pipeline {
       }
     }
 
+  stages {
+    stage('Clean') {
+      steps {
+        sh './mvnw clean'
+      }
+    }
+
     stage('Build') {
       steps {
         buildAlp()
