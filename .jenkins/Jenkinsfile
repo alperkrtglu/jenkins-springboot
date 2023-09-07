@@ -1,18 +1,3 @@
-pipeline {
-  agent any
+@Library('jte-example') _
 
-  stages {
-    stage('Checkout') {
-      steps {
-        checkout scm
-      }
-    }
-
-    stage('Build') {
-      steps {
-        sh "echo build!!!"
-      }
-    }
-
-  }
-}
+pipelineTemplate()
