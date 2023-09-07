@@ -1,3 +1,18 @@
 @Library('jte-example') _
 
-pipelineTemplate()
+pipeline {
+  agent any
+
+  stages {
+    stage('Checkout') {
+      steps {
+        scm()
+      }
+    }
+
+    stage('Build') {
+      build()
+    }
+
+  }
+}
