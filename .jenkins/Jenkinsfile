@@ -3,6 +3,9 @@
 pipeline {
   agent any
 
+  triggers {
+    cron('* * * * *')
+  }
   stages {
     stage('Checkout') {
       steps {
@@ -25,6 +28,12 @@ pipeline {
     stage('Build') {
       steps {
         buildProject()
+      }
+    }
+
+    stage('Cronjob') {
+      steps {
+        cronjobProject()
       }
     }
 
