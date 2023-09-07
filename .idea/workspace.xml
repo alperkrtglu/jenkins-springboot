@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/build.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/build.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/scm.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/scm.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694099820487</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="COMMIT-5">
+      <created>1694099947381</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694099947381</updated>
+    </task>
+    <task id="LOCAL-00017" summary="COMMIT-5">
+      <created>1694100025123</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694100025123</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

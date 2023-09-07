@@ -1,5 +1,3 @@
 def call() {
-    stage('Checkout') {
-        checkout scm
-    }
+  checkout scm
 }
