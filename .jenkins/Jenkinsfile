@@ -12,7 +12,7 @@ pipeline {
 
     stage('Hello') {
       steps {
-        helloProject()
+        helloProject('Alper')
       }
     }
 
