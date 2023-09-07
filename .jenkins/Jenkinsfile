@@ -6,13 +6,13 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        scm()
+        scmAlp()
       }
     }
 
     stage('Build') {
       steps {
-        build()
+        buildAlp()
       }
     }
 
