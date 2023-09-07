@@ -12,13 +12,19 @@ pipeline {
 
     stage('Hello') {
       steps {
-        hello()
+        helloProject()
       }
     }
 
     stage('Clean') {
       steps {
         cleanProject()
+      }
+    }
+
+    stage('Build') {
+      steps {
+        buildProject()
       }
     }
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vars/cleanProject.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="COMMIT-5">
+      <change afterPath="$PROJECT_DIR$/vars/buildProject.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/buildAlp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/hello.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/hello.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/helloProject.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/scmAlp.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694108451078</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="COMMIT-5">
+      <created>1694108621555</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1694108621555</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
