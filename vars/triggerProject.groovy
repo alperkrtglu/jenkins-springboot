@@ -3,8 +3,8 @@ def call() {
         def IS_CRON_JOB = "${currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger.TimerTriggerCause) != null ? 'true' : 'false'}"
 
         if (IS_CRON_JOB.toBoolean()) {
-                sh "RUN-CRONJOB --- TIME ${timestampVersion}"
+                sh "echo RUN-CRONJOB --- TIME ${timestampVersion}"
         } else {
-                sh "RUN-MANUAL"
+                sh "echo RUN-MANUAL"
         }
 }
