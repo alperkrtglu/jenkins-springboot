@@ -1,5 +1,9 @@
 @Library('jte-example') _
 
+def getCurrentVersion() {
+    return 5
+}
+
 pipeline {
   agent any
     environment {
@@ -44,7 +48,7 @@ pipeline {
 
     stage('Trigger-Project') {
       steps {
-        triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), timestampVersion: timestampVersion)
+        triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), timestampVersion: getCurrentVersion())
         sh "echo ISIM: ${ADIM}"
       }
     }
