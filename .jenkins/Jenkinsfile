@@ -3,7 +3,7 @@
 pipeline {
   agent any
     environment {
-        ADIM = "ALPER"
+        ADIM = "LALALA"
     }
   triggers {
     cron('0 10 * * *')
