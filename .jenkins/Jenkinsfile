@@ -35,9 +35,8 @@ pipeline {
 
         stage('Deneme') {
                         steps {
-                                if (ADIM == 'ALPER') {
-                                    sh 'echo ${ADIM}'
-                                }
+                                    denemeProject()
+
                         }
         }
 
