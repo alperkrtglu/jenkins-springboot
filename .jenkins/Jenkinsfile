@@ -33,6 +33,16 @@ pipeline {
       }
     }
 
+        stage('Deneme') {
+                        steps {
+                            script {
+                                if (ADIM == 'ALPER') {
+                                    sh 'echo ${ADIM}'
+                                }
+                            }
+                        }
+        }
+
     stage('Trigger-Project') {
       steps {
         triggerProject()
