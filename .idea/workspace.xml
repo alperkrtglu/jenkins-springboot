@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.jenkins/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/triggerProject.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/triggerProject.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,21 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679313259819</updated>
       <workItem from="1679313261113" duration="8466000" />
-      <workItem from="1694419546802" duration="7822000" />
-    </task>
-    <task id="LOCAL-00008" summary="COMMIT-5">
-      <created>1679352364065</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679352364065</updated>
-    </task>
-    <task id="LOCAL-00009" summary="COMMIT-5">
-      <created>1679352627985</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1679352627985</updated>
+      <workItem from="1694419546802" duration="7977000" />
     </task>
     <task id="LOCAL-00010" summary="COMMIT-5">
       <created>1679352664151</created>
@@ -430,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694608734601</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="COMMIT-5">
+      <created>1694611731751</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611731751</updated>
+    </task>
+    <task id="LOCAL-00058" summary="COMMIT-5">
+      <created>1694611786587</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611786587</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
