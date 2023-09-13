@@ -2,7 +2,9 @@
 
 pipeline {
   agent any
-
+    environment {
+        ADIM = "ALPER"
+    }
   triggers {
     cron('0 10 * * *')
   }
@@ -34,6 +36,7 @@ pipeline {
     stage('Trigger-Project') {
       steps {
         triggerProject()
+        sh "ISIM: ${ADIM}"
       }
     }
 
