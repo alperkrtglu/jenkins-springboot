@@ -1,10 +1,8 @@
-def call() {
-        def timestampVersion = sh(script: "date -d @\$(date +%s) +'%Y-%m-%dT%H-%M-%SZ'", returnStdout: true).trim()
-        Boolean IS_CRON_JOB = (currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger.TimerTriggerCause) != null)
+def call(Map config = [:]) {
 
-        if (IS_CRON_JOB) {
-                sh "echo RUN-CRONJOB --- TIME ${timestampVersion}"
+        if (config.IS_CRON_JOB) {
+                sh "echo RUN-CRONJOB --- TIME ${config.timestampVersion}"
         } else {
-                sh "echo RUN-MANUAL"
+                sh "echo RUN-MANUAL --- TIME ${config.timestampVersion}"
         }
 }

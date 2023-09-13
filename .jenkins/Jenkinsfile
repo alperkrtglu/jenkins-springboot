@@ -4,6 +4,8 @@ pipeline {
   agent any
     environment {
         ADIM = "ALPER"
+        IS_CRON_JOB = "${currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger.TimerTriggerCause) != null ? 'true' : 'false'}"
+        timestampVersion = sh(script: "date -d @\$(date +%s) +'%Y-%m-%dT%H-%M-%SZ'", returnStdout: true).trim()
     }
   triggers {
     cron('0 10 * * *')
@@ -42,7 +44,7 @@ pipeline {
 
     stage('Trigger-Project') {
       steps {
-        triggerProject()
+        triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), timestampVersion: timestampVersion)
         sh "echo ISIM: ${ADIM}"
       }
     }
