@@ -8,7 +8,7 @@ pipeline {
         timestampVersion = sh(script: "date -d @\$(date +%s) +'%Y-%m-%dT%H-%M-%SZ'", returnStdout: true).trim()
     }
   triggers {
-    cron('* * * * *')
+    cron('0 10 * * *')
   }
   stages {
     stage('Checkout') {
