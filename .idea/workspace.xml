@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vars/denemeProject.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/denemeProject.groovy" afterDir="false" />
-    </list>
+    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,21 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679313259819</updated>
       <workItem from="1679313261113" duration="8466000" />
-      <workItem from="1694419546802" duration="5913000" />
-    </task>
-    <task id="LOCAL-00001" summary="COMMIT-1">
-      <created>1679318868672</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679318868672</updated>
-    </task>
-    <task id="LOCAL-00002" summary="COMMIT-2">
-      <created>1679325115315</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679325115315</updated>
+      <workItem from="1694419546802" duration="6123000" />
     </task>
     <task id="LOCAL-00003" summary="COMMIT-3">
       <created>1679325149839</created>
@@ -428,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694607750275</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="COMMIT-5">
+      <created>1694607824046</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1694607824047</updated>
+    </task>
+    <task id="LOCAL-00051" summary="COMMIT-5">
+      <created>1694607884386</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1694607884386</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
