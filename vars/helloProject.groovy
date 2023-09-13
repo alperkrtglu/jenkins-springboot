@@ -1,3 +1,3 @@
 def call(String isim) {
-        sh "echo Hello ${isim}!!!"
+        sh "echo Hello ${ADIM}!!!"
 }
