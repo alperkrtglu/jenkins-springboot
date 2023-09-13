@@ -1,8 +1,8 @@
 def call(Map config = [:]) {
 
-        sh "echo TRIGGER ${config.IS_CRON_JOB}"
+        sh "echo TRIGGER ${config.isCronJob}"
 
-        if (!config.IS_CRON_JOB) {
+        if (!config.isCronJob) {
                 sh "echo RUN-CRONJOB --- TIME ${config.timestampVersion}"
         } else {
                 sh "echo RUN-MANUAL --- TIME ${config.timestampVersion}"

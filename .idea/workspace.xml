@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="" />
+    <list default="true" id="a1b6c2f9-aaf3-478a-94cb-16d4e996190a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/triggerProject.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/triggerProject.groovy" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,28 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679313259819</updated>
       <workItem from="1679313261113" duration="8466000" />
-      <workItem from="1694419546802" duration="7977000" />
-    </task>
-    <task id="LOCAL-00010" summary="COMMIT-5">
-      <created>1679352664151</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679352664151</updated>
-    </task>
-    <task id="LOCAL-00011" summary="COMMIT-5">
-      <created>1694074412153</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1694074412153</updated>
-    </task>
-    <task id="LOCAL-00012" summary="COMMIT-5">
-      <created>1694074485137</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1694074485137</updated>
+      <workItem from="1694419546802" duration="8327000" />
     </task>
     <task id="LOCAL-00013" summary="COMMIT-5">
       <created>1694076921532</created>
@@ -426,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694611786587</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="COMMIT-5">
+      <created>1694611928240</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611928240</updated>
+    </task>
+    <task id="LOCAL-00060" summary="COMMIT-5">
+      <created>1694611992819</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611992819</updated>
+    </task>
+    <task id="LOCAL-00061" summary="COMMIT-5">
+      <created>1694612088626</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1694612088626</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
