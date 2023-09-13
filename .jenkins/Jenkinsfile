@@ -35,7 +35,7 @@ pipeline {
 
         stage('Deneme') {
                         steps {
-                                    denemeProject(isim: "Babababa")
+                                    denemeProject(isim: ADIM)
 
                         }
         }
