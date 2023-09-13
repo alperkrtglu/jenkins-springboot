@@ -34,6 +34,7 @@ pipeline {
     stage('Trigger-Project') {
       steps {
         triggerProject()
+        sh "echo RUN-CRONJOB --- TIME ${timestampVersion}"
       }
     }
 
