@@ -1,10 +1,6 @@
 @Library('jte-example') _
 
 pipeline {
-    environment {
-        //choosen semantic version
-        IS_CRON_JOB = "${currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger.TimerTriggerCause) != null ? 'true' : 'false'}"
-    }
   agent any
 
   triggers {
