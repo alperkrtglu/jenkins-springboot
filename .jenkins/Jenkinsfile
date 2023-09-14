@@ -48,9 +48,12 @@ pipeline {
 
     stage('Trigger-Project') {
       steps {
-        def version = IS_CRON_JOB.toBoolean() ? timestampVersion : getCurrentVersion()
+              script {
+                  def version = IS_CRON_JOB.toBoolean() ? timestampVersion : getCurrentVersion()
 
-        triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), timestampVersion: getCurrentVersion())
+                  // version değişkenini fonksiyona argüman olarak geçirebilirsiniz.
+                  triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), version: version, timestampVersion: version)
+              }
         sh "echo ISIM: ${ADIM}"
       }
     }
