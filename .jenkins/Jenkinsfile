@@ -48,6 +48,8 @@ pipeline {
 
     stage('Trigger-Project') {
       steps {
+        def version = IS_CRON_JOB.toBoolean() ? timestampVersion : getCurrentVersion()
+
         triggerProject(isCronJob: IS_CRON_JOB.toBoolean(), timestampVersion: getCurrentVersion())
         sh "echo ISIM: ${ADIM}"
       }
